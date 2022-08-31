@@ -1,0 +1,66 @@
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+}  */
+
+body {
+    background-color: black;
+}
+
+.post {
+    background: white;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+}
+
+h4 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.name {
+    padding: 0 0 15px 0;
+    margin: 0 0 0 0;    
+}
+
+.html {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.account {
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+}
+
+.post-body {
+    display: flex;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
